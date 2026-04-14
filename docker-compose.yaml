@@ -1,0 +1,38 @@
+services:
+  spark-master:
+    image: apache/spark:3.5.1
+    user: root
+    ports:
+      - "7077:7077"   # Spark master port (job submission)
+      - "8080:8080"   # Spark master UI
+    environment:
+      SPARK_NO_DAEMONIZE: "true"
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    networks:
+      - spark-net
+
+  jupyter:
+    image: jupyter/base-notebook:python-3.11
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    user: root
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes"
+    volumes:
+      - "C:/Users/Sanjay Bedwal/Desktop/repos/de_projects/aws-data-engineering/notebooks:/home/jovyan/notebooks"
+      - "C:/Users/Sanjay Bedwal/Desktop/repos/de_projects/aws-data-engineering/scripts:/home/jovyan/scripts"
+      - "C:/Users/Sanjay Bedwal/Desktop/repos/de_projects/aws-data-engineering/jars:/home/jovyan/jars"
+    mem_limit: 3g
+    depends_on:
+      - spark-master
+    command: >
+      bash -c "pip install --quiet pyspark==3.5.1 boto3 &&
+               start-notebook.sh --NotebookApp.token='spark123' --NotebookApp.notebook_dir='/home/jovyan/notebooks'"
+    networks:
+      - spark-net
+
+networks:
+  spark-net:
+    driver: bridge

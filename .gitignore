@@ -1,0 +1,17 @@
+# Parquet output data
+output/
+
+# Spark event logs
+spark-events/
+
+# Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker volumes
+*.log
+q.md
