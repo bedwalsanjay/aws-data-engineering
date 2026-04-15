@@ -1,5 +1,6 @@
 # Parquet output data
 output/
+my_mds/
 
 # Spark event logs
 spark-events/
