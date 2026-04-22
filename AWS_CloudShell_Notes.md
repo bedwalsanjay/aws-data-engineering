@@ -123,7 +123,7 @@ aws s3 cp C:\multi_folder\recording.conf s3://sanjay-de-bucket-2026
 
 # Upload entire local folder to S3
 aws s3 cp C:\multi_folder s3://sanjay-de-bucket-2026 --recursive
-aws s3 cp C:\multi_folder s3://sanjay-de-bucket-2026/multi_folder --recursive
+aws s3 cp C:\multi_folder s3://sanjay-de-bucket-2026/multi_file_folder --recursive
 
 # Download a file from S3
 aws s3 cp s3://sanjay-de-bucket-2026/raw/orders/orders.csv .
@@ -175,9 +175,7 @@ aws glue start-job-run \
   --arguments '{"--input_path":"s3://your-bucket/raw/","--output_path":"s3://your-bucket/silver/"}'
 
 # Check status of a specific Glue job run
-aws glue get-job-run \
-  --job-name test_python_job_1 \
-  --run-id jr_918ec84940e0442565927328dbfee31e54a35c0081723829f22693a1e3c85cc8
+aws glue get-job-run --job-name test_python_job_1 --run-id jr_c14752f5508425cc641235b1a8e728dc59be9ef5961809306af9903bd24fa165
 
 # List all runs of a Glue job (most recent first)
 aws glue get-job-runs \

@@ -60,27 +60,27 @@ Before starting this course, learners are expected to have a basic understanding
 
 ---
 
-## Module 4: S3 - Simple Storage Service
+## Module 4: Boto3 Python SDK
 
-### 4.1 Core Concepts - Buckets, Objects, Keys
-### 4.2 Storage Classes and When to Use Each
-### 4.3 Bucket Policies and Access Control
-### 4.4 Data Lake Folder Structure *(covered in depth in Module 23)*
-### 4.5 S3 Event Notifications
-### 4.6 Versioning and Lifecycle Rules
-### 4.7 Partitioning Strategy *(covered in depth in Module 23)*
+### 4.1 What is Boto3 and Why it is Needed
+### 4.2 Python and Pip Setup in CloudShell
+### 4.3 Installation and Authentication
+### 4.4 Boto3 Client - How to Connect to AWS Services
+### 4.5 S3 Operations with Boto3
+### 4.6 Run and Monitor a Glue Job with Boto3
+### 4.7 Other Useful Boto3 Examples - Lambda, SNS, DynamoDB, Secrets Manager
 
 ---
 
-## Module 5: EC2 - Elastic Compute Cloud
+## Module 5: S3 - Simple Storage Service
 
-### 5.1 Instance Types for Data Engineering
-### 5.2 Launching an EC2 Instance
-### 5.3 Connecting via SSH
-### 5.4 User Data - Bootstrap Scripts on Launch
-### 5.5 EC2 Instance Profile - Attaching IAM Role
-### 5.6 EBS - Elastic Block Store
-### 5.7 Security Groups - Inbound and Outbound Rules
+### 5.1 Core Concepts - Buckets, Objects, Keys
+### 5.2 Storage Classes and When to Use Each
+### 5.3 Bucket Policies and Access Control
+### 5.4 Data Lake Folder Structure *(covered in depth in Module 24)*
+### 5.5 S3 Event Notifications
+### 5.6 Versioning and Lifecycle Rules
+### 5.7 Partitioning Strategy *(covered in depth in Module 24)*
 
 ---
 
@@ -150,114 +150,130 @@ Before starting this course, learners are expected to have a basic understanding
 
 ---
 
-## Module 12: EMR - Elastic MapReduce
+## Module 12: EC2 - Elastic Compute Cloud
 
-### 12.1 EMR Components - Master, Core, Task Nodes
-### 12.2 Launching an EMR Cluster
-### 12.3 Submitting Spark Jobs as EMR Steps
-### 12.4 EMR with Airflow - Industry Pattern
-### 12.5 EMR Serverless
-### 12.6 Storage Options - S3, HDFS, EBS
-
----
-
-## Module 13: SNS and SQS
-
-### 13.1 SNS - Pub/Sub Notifications
-### 13.2 SQS - Message Queues and Decoupling
-### 13.3 Dead Letter Queues (DLQ)
----
-
-## Module 14: Secrets Manager
-
-### 14.1 Storing Credentials Securely
-### 14.2 Retrieving Secrets in Code
-### 14.3 Secrets Manager vs SSM Parameter Store
+### 12.1 Instance Types for Data Engineering
+### 12.2 Launching an EC2 Instance
+### 12.3 Connecting via SSH
+### 12.4 User Data - Bootstrap Scripts on Launch
+### 12.5 EC2 Instance Profile - Attaching IAM Role
+### 12.6 EBS - Elastic Block Store
+### 12.7 Security Groups - Inbound and Outbound Rules
 
 ---
 
-## Module 15: CloudFormation and CDK
+## Module 13: EMR - Elastic MapReduce
 
-### 15.1 CloudFormation - YAML/JSON Templates
-### 15.2 AWS CDK - Infrastructure as Python Code
-### 15.3 CDK Project Structure and Commands
-### 15.4 CDK vs CloudFormation - When to Use Which
-
----
-
-## Module 16: CloudWatch
-
-### 16.1 Logs - Lambda, Glue, EMR
-### 16.2 Metrics and Dashboards
-### 16.3 Alarms - Alert on Pipeline Failures
+### 13.1 EMR Components - Master, Core, Task Nodes
+### 13.2 Launching an EMR Cluster
+### 13.3 Submitting Spark Jobs as EMR Steps
+### 13.4 EMR with Airflow - Industry Pattern
+### 13.5 EMR Serverless
+### 13.6 Storage Options - S3, HDFS, EBS
 
 ---
 
-## Module 17: Step Functions
+## Module 14: SNS and SQS
 
-### 17.1 State Machines for Workflow Orchestration
-### 17.2 Orchestrating Data Pipelines with Step Functions
-### 17.3 Step Functions vs Airflow
-
----
-
-## Module 18: EventBridge
-
-### 18.1 Scheduling Jobs with Cron Rules
-### 18.2 Reacting to AWS Service Events
----
-
-## Module 19: DynamoDB
-
-### 19.1 Use Cases in Data Engineering
-### 19.2 Core Concepts - Tables, Items, Partition Key, Sort Key
-### 19.3 Storing Pipeline Metadata and Run History
----
-
-## Module 20: Git, GitHub and CI/CD
-
-### 20.1 Git Basics for Data Engineers
-### 20.2 Branching Strategy
-### 20.3 .gitignore Best Practices
-### 20.4 GitHub Actions - Automated Deploy to AWS
-### 20.5 Storing AWS Credentials as GitHub Secrets
+### 14.1 SNS - Pub/Sub Notifications
+### 14.2 SQS - Message Queues and Decoupling
+### 14.3 Dead Letter Queues (DLQ)
 
 ---
 
-## Module 21: Docker
+## Module 15: Secrets Manager
 
-### 21.1 Why Docker for Data Engineering
-### 21.2 Core Docker Commands
-### 21.3 Writing a Dockerfile
-### 21.4 Docker Compose - Local Dev Stack
----
-
-## Module 22: Apache Airflow
-
-### 22.1 Core Concepts - DAG, Task, Operator, Sensor, Hook
-### 22.2 Running Airflow Locally with Docker
-### 22.3 Writing a DAG
-### 22.4 AWS Operators - Glue, EMR, S3, Redshift
-### 22.5 Amazon MWAA - Managed Airflow on AWS
+### 15.1 Storing Credentials Securely
+### 15.2 Retrieving Secrets in Code
+### 15.3 Secrets Manager vs SSM Parameter Store
 
 ---
 
-## Module 23: Data Engineering Concepts and Best Practices
+## Module 16: CloudFormation and CDK
 
-### 23.1 Data Lake Architecture - Raw / Bronze / Silver / Gold Layers
-### 23.2 Partitioning Strategy for Performance and Cost
-### 23.3 Batch vs Streaming - When to Use Which
-### 23.4 Data Pipeline Design Patterns
-### 23.5 Idempotency - Designing Pipelines That Can Safely Re-run
-### 23.6 Data Quality and Validation
-### 23.7 Schema Evolution and Handling Breaking Changes
-### 23.8 File Formats - CSV vs JSON vs Parquet vs ORC
-### 23.9 Slowly Changing Dimensions (SCD) - Type 1, 2, 3
-### 23.10 Pipeline Monitoring, Alerting and Observability
+### 16.1 CloudFormation - YAML/JSON Templates
+### 16.2 AWS CDK - Infrastructure as Python Code
+### 16.3 CDK Project Structure and Commands
+### 16.4 CDK vs CloudFormation - When to Use Which
 
 ---
 
-## Module 24: Projects
+## Module 17: CloudWatch
+
+### 17.1 Logs - Lambda, Glue, EMR
+### 17.2 Metrics and Dashboards
+### 17.3 Alarms - Alert on Pipeline Failures
+
+---
+
+## Module 18: Step Functions
+
+### 18.1 State Machines for Workflow Orchestration
+### 18.2 Orchestrating Data Pipelines with Step Functions
+### 18.3 Step Functions vs Airflow
+
+---
+
+## Module 19: EventBridge
+
+### 19.1 Scheduling Jobs with Cron Rules
+### 19.2 Reacting to AWS Service Events
+
+---
+
+## Module 20: DynamoDB
+
+### 20.1 Use Cases in Data Engineering
+### 20.2 Core Concepts - Tables, Items, Partition Key, Sort Key
+### 20.3 Storing Pipeline Metadata and Run History
+
+---
+
+## Module 21: Git, GitHub and CI/CD
+
+### 21.1 Git Basics for Data Engineers
+### 21.2 Branching Strategy
+### 21.3 .gitignore Best Practices
+### 21.4 GitHub Actions - Automated Deploy to AWS
+### 21.5 Storing AWS Credentials as GitHub Secrets
+
+---
+
+## Module 22: Docker
+
+### 22.1 Why Docker for Data Engineering
+### 22.2 Core Docker Commands
+### 22.3 Writing a Dockerfile
+### 22.4 Docker Compose - Local Dev Stack
+
+---
+
+## Module 23: Apache Airflow
+
+### 23.1 Core Concepts - DAG, Task, Operator, Sensor, Hook
+### 23.2 Running Airflow Locally with Docker
+### 23.3 Writing a DAG
+### 23.4 AWS Operators - Glue, EMR, S3, Redshift
+### 23.5 Amazon MWAA - Managed Airflow on AWS
+
+---
+
+## Module 24: Data Engineering Concepts and Best Practices
+
+### 24.1 Data Lake Architecture - Raw / Bronze / Silver / Gold Layers
+### 24.2 Partitioning Strategy for Performance and Cost
+### 24.3 Batch vs Streaming - When to Use Which
+### 24.4 Data Pipeline Design Patterns
+### 24.5 Idempotency - Designing Pipelines That Can Safely Re-run
+### 24.6 Data Quality and Validation
+### 24.7 Schema Evolution and Handling Breaking Changes
+### 24.8 File Formats - CSV vs JSON vs Parquet vs ORC
+### 24.9 Slowly Changing Dimensions (SCD) - Type 1, 2, 3
+### 24.10 Pipeline Monitoring, Alerting and Observability
+
+---
+
+## Module 25: Projects
 
 ### Project 1: Batch Processing Pipeline - AWS Glue and Redshift
 - Ingest raw data from S3
