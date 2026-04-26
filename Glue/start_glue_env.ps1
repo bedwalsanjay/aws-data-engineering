@@ -22,6 +22,14 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
+# Wait for Glue container to be ready
+Write-Host "Waiting for Glue container to be ready..." -ForegroundColor Yellow
+Start-Sleep -Seconds 5
+
+# Start Spark History Server
+Write-Host "Starting Spark History Server..." -ForegroundColor Cyan
+docker exec glue_container bash -c '$SPARK_HOME/sbin/start-history-server.sh'
+
 # Step 2: Create Docker network (ignore if already exists)
 Write-Host "`n[2/5] Creating Docker network 'glue-minio-network'..." -ForegroundColor Cyan
 

@@ -1,0 +1,39 @@
+| Method                  | Available in Spark DataFrame | Notes                                              |
+|-------------------------|------------------------------|----------------------------------------------------|
+| applyMapping            | No                           | Glue only                                          |
+| apply_mapping           | No                           | Glue only (snake_case alias of applyMapping)       |
+| assertErrorThreshold    | No                           | Glue only                                          |
+| coalesce                | Yes                          | Same as df.coalesce()                              |
+| count                   | Yes                          | Same as df.count()                                 |
+| drop_fields             | Partial                      | Spark has df.drop()                                |
+| errorsAsDynamicFrame    | No                           | Glue only                                          |
+| errorsCount             | No                           | Glue only                                          |
+| filter                  | Yes                          | Spark uses df.filter() or df.where()               |
+| fromDF                  | No                           | Glue only — converts DataFrame to DynamicFrame     |
+| getNumPartitions        | Partial                      | Spark has df.rdd.getNumPartitions()                |
+| glue_ctx                | No                           | Glue only — reference to GlueContext               |
+| join                    | Yes                          | Same as df.join()                                  |
+| map                     | Partial                      | Spark has df.rdd.map() — row level lambda          |
+| mapPartitions           | Partial                      | Spark has df.rdd.mapPartitions()                   |
+| mapPartitionsWithIndex  | Partial                      | Spark has df.rdd.mapPartitionsWithIndex()          |
+| mergeDynamicFrame       | No                           | Glue only — upsert/merge operation                 |
+| name                    | No                           | Glue only — frame identifier                       |
+| printSchema             | Yes                          | Same as df.printSchema()                           |
+| relationalize           | No                           | Glue only — flattens nested/array structures       |
+| rename_field            | Partial                      | Spark has df.withColumnRenamed()                   |
+| repartition             | Yes                          | Same as df.repartition()                           |
+| resolveChoice           | No                           | Glue only — handles choice/ambiguous types         |
+| schema                  | Yes                          | Same as df.schema                                  |
+| select_fields           | Partial                      | Spark has df.select()                              |
+| show                    | Yes                          | Same as df.show()                                  |
+| spigot                  | No                           | Glue only — writes sample records to S3            |
+| split_fields            | No                           | Glue only — splits columns into two DynamicFrames  |
+| split_rows              | No                           | Glue only — splits rows based on conditions        |
+| stageErrorsCount        | No                           | Glue only                                          |
+| toDF                    | No                           | Glue only — converts DynamicFrame to DataFrame     |
+| unbox                   | No                           | Glue only — parses string column as JSON/CSV       |
+| union                   | Yes                          | Same as df.union()                                 |
+| unnest                  | No                           | Glue only — flattens nested structs                |
+| unnest_ddb_json         | No                           | Glue only — flattens DynamoDB JSON format          |
+| with_frame_schema       | No                           | Glue only                                          |
+| write                   | Partial                      | Spark has df.write (DataFrameWriter)               |
