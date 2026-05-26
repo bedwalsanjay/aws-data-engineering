@@ -16,3 +16,4 @@ __pycache__/
 # Docker volumes
 *.log
 q.md
+practice_inter/*

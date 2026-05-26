@@ -197,7 +197,7 @@ CREATE EXTERNAL TABLE ecommerce_db.subscriber_plans (
 )
 PARTITIONED BY (plan_id BIGINT)
 STORED AS PARQUET
-LOCATION 's3://aws-glue-temporary-361116840744-ap-south-1/example/subscriber_plans/';
+LOCATION 's3://sanjay-de-bucket-2026/subscriber_plans_less_files/';
 ```
 
 > Note: The partition column `plan_id` is **NOT** in the main column list — it's defined separately in `PARTITIONED BY`.
@@ -208,7 +208,7 @@ Unlike non-partitioned tables, **Athena does not automatically see new partition
 
 ```sql
 -- This will return 0 rows even if data exists in S3
-SELECT * FROM ecommerce_db.subscriber_plans WHERE plan_id = 1005969896014;
+select * from ecommerce_db.subscriber_plans where plan_id=1017114385294;
 ```
 
 ### Fix Option 1 — MSCK REPAIR TABLE (manual, one-time scan)
@@ -256,6 +256,33 @@ Set up a Crawler to run on a schedule (e.g. daily) that scans the S3 path and au
 | `MSCK REPAIR TABLE` | One-time setup or infrequent partition additions |
 | `ALTER TABLE ADD PARTITION` | You know exactly which partitions were added (e.g. from a Glue job) |
 | Glue Crawler | Fully automated, large number of partitions, frequent additions |
+
+### Crawler vs MSCK REPAIR TABLE vs ALTER TABLE ADD PARTITION
+
+| | `MSCK REPAIR TABLE` | `ALTER TABLE ADD PARTITION` | Glue Crawler |
+|---|---|---|---|
+| Speed at scale | ❌ Slow | ✅ Fast | ✅ Fast |
+| Automation | ❌ Manual | ❌ Manual | ✅ Automated |
+| Backfill | ✅ Easy | ❌ Tedious | ✅ Easy |
+| Unknown partitions | ✅ Handles | ❌ Can't handle | ✅ Handles |
+| Schema evolution | ❌ No | ❌ No | ✅ Yes |
+| New table detection | ❌ No | ❌ No | ✅ Yes |
+| Data type inference | ❌ No | ❌ No | ✅ Yes |
+| Multiple paths in one run | ❌ No | ❌ No | ✅ Yes |
+| Format change detection | ❌ No | ❌ No | ✅ Yes |
+| Cost | Nearly free | Nearly free | DPU-Hour charge |
+| Production pipelines | ❌ Not ideal | ✅ Ideal (known partitions) | ✅ Ideal |
+
+
+| Scenario | Need Crawler? |
+|---|---|
+| Non-partitioned table, schema never changes | ❌ No — just create external table once |
+| Non-partitioned table, schema changes (new columns) | ✅ Yes — Crawler detects schema evolution |
+| Partitioned table, partitions added manually | ❌ No — use `MSCK REPAIR TABLE` or `ALTER TABLE ADD PARTITION` |
+| Partitioned table, partitions added frequently/automatically | ✅ Yes — Crawler automates partition discovery |
+| Brand new S3 path, unknown schema | ✅ Yes — Crawler infers schema automatically |
+
+> **Key insight** — `MSCK REPAIR TABLE` and `ALTER TABLE ADD PARTITION` only solve the **partition problem**. Crawler solves partitions + schema evolution + new tables + format changes — all in one automated job. The trade-off is cost.
 
 ---
 
@@ -417,10 +444,4 @@ This is the key characteristic of an external table — **metadata and data are 
 
 > This is why Athena is ideal for a **data lake architecture** — your data lives in S3 (cheap, durable, scalable) and Athena just provides a SQL interface on top of it.
 
-| Scenario | Need Crawler? |
-|---|---|
-| Non-partitioned table, schema never changes | ❌ No — just create external table once |
-| Non-partitioned table, schema changes (new columns) | ✅ Yes — Crawler detects schema evolution |
-| Partitioned table, partitions added manually | ❌ No — use `MSCK REPAIR TABLE` or `ALTER TABLE ADD PARTITION` |
-| Partitioned table, partitions added frequently/automatically | ✅ Yes — Crawler automates partition discovery |
-| Brand new S3 path, unknown schema | ✅ Yes — Crawler infers schema automatically |
+
