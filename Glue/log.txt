@@ -1,0 +1,393 @@
+INFO	2026-05-31T10:27:05,844	22717	org.apache.hadoop.metrics2.impl.MetricsSystemImpl	[shutdown-hook-0]	612	s3a-file-system metrics system shutdown complete.
+INFO	2026-05-31T10:27:05,844	22717	org.apache.hadoop.metrics2.impl.MetricsSystemImpl	[shutdown-hook-0]	210	Stopping s3a-file-system metrics system...
+INFO	2026-05-31T10:27:05,844	22717	org.apache.hadoop.metrics2.impl.MetricsSystemImpl	[shutdown-hook-0]	216	s3a-file-system metrics system stopped.
+INFO	2026-05-31T10:27:05,613	22486	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-2097c35a-dea8-4e24-97b7-79bd17fdff6f/pyspark-90967318-fd26-4c6a-90e4-e658dcd8449a
+INFO	2026-05-31T10:27:05,608	22481	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-2097c35a-dea8-4e24-97b7-79bd17fdff6f
+INFO	2026-05-31T10:27:05,601	22474	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-b2a129ae-caa9-4627-bf44-a15c77308327
+INFO	2026-05-31T10:27:05,600	22473	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Shutdown hook called
+INFO	2026-05-31T10:27:05,062	21935	com.amazonaws.services.glue.LogPusher	[shutdown-hook-0]	60	uploading file:///var/log/spark/apps to s3://aws-glue-assets-361116840744-ap-south-1/sparkHistoryLogs/
+INFO	2026-05-31T10:27:05,060	21933	org.apache.spark.SparkContext	[shutdown-hook-0]	60	Successfully stopped SparkContext
+INFO	2026-05-31T10:27:04,995	21868	org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint	[dispatcher-event-loop-0]	60	OutputCommitCoordinator stopped!
+INFO	2026-05-31T10:27:04,447	21320	org.apache.spark.storage.BlockManagerMaster	[shutdown-hook-0]	60	BlockManagerMaster stopped
+INFO	2026-05-31T10:27:04,442	21315	org.apache.spark.storage.memory.MemoryStore	[shutdown-hook-0]	60	MemoryStore cleared
+INFO	2026-05-31T10:27:04,443	21316	org.apache.spark.storage.BlockManager	[shutdown-hook-0]	60	BlockManager stopped
+INFO	2026-05-31T10:27:04,409	21282	org.apache.spark.MapOutputTrackerMasterEndpoint	[dispatcher-event-loop-0]	60	MapOutputTrackerMasterEndpoint stopped!
+INFO	2026-05-31T10:27:04,334	21207	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[spark-listener-group-shared]	116	Writing Task Metrics data serialized as json to /tmp/taskMetrics_flightRecorder
+INFO	2026-05-31T10:27:04,331	21204	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[spark-listener-group-shared]	102	Spark application ended, timestamp = 1780223224239
+INFO	2026-05-31T10:27:04,250	21123	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[shutdown-hook-0]	60	Shutting down all executors
+INFO	2026-05-31T10:27:04,250	21123	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Asking each executor to shut down
+INFO	2026-05-31T10:27:04,249	21122	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[shutdown-hook-0]	60	Stopping JES Scheduler Backend.
+INFO	2026-05-31T10:27:04,244	21117	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[spark-listener-group-shared]	43	Spark application ended, timestamp = 1780223224239
+WARN	2026-05-31T10:27:04,245	21118	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[spark-listener-group-shared]	57	Writing Stage Metrics data serialized as json to /tmp/stageMetrics_flightRecorder
+INFO	2026-05-31T10:27:04,241	21114	com.amazonaws.services.glueexceptionanalysis.EventLogFileWriter	[spark-listener-group-shared]	70	Logs, events processed and insights are written to file /tmp/glue-exception-analysis-logs/spark-application-1780223210724
+INFO	2026-05-31T10:27:04,238	21111	org.apache.spark.SparkContext	[shutdown-hook-0]	60	SparkContext is stopping with exitCode 0.
+INFO	2026-05-31T10:27:04,238	21111	org.apache.spark.SparkContext	[shutdown-hook-0]	60	Invoking stop() from shutdown hook
+INFO	2026-05-31T10:27:04,236	21109	com.amazonaws.services.glue.LogPusher	[main]	60	stopping
+INFO	2026-05-31T10:27:04,104	20977	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	34	Emit job error metrics
+INFO	2026-05-31T10:27:04,081	20954	com.amazonaws.services.glue.ProcessLauncher	[main]	661	Enhance failure reason and emit cloudwatch error metrics.
+INFO	2026-05-31T10:27:04,080	20953	com.amazonaws.services.glue.ProcessLauncher	[main]	60	postprocessing
+INFO	2026-05-31T10:27:04,026	20899	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Posted SparkListenerSQLExecutionObfuscatedInfo in 1 ms
+INFO	2026-05-31T10:27:04,025	20898	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Generating and posting SparkListenerSQLExecutionObfuscatedInfo...
+INFO	2026-05-31T10:27:04,020	20893	org.apache.spark.sql.execution.datasources.FileFormatWriter	[Thread-10]	60	Finished processing stats for write job 0389a1b9-9f29-4ada-a421-07f5daa9e016.
+INFO	2026-05-31T10:27:04,015	20888	org.apache.spark.sql.execution.datasources.FileFormatWriter	[Thread-10]	60	Write Job 0389a1b9-9f29-4ada-a421-07f5daa9e016 committed. Elapsed time: 73 ms.
+INFO	2026-05-31T10:27:03,975	20848	org.apache.hadoop.fs.s3a.commit.magicv2.MagicV2Committer	[Thread-10]	98	Task committer attempt_202605311027023877476880056408536_0000_m_000000_0: commitJob((no job ID)): duration 0:00.031s
+WARN	2026-05-31T10:27:03,976	20849	org.apache.parquet.hadoop.ParquetOutputFormat	[Thread-10]	163	Setting parquet.enable.summary-metadata is deprecated, please use parquet.summary.metadata.level
+INFO	2026-05-31T10:27:03,944	20817	org.apache.hadoop.fs.s3a.commit.magicv2.MagicV2Committer	[Thread-10]	77	Starting: Task committer attempt_202605311027023877476880056408536_0000_m_000000_0: commitJob((no job ID))
+INFO	2026-05-31T10:27:03,940	20813	org.apache.spark.sql.execution.datasources.FileFormatWriter	[Thread-10]	60	Start to commit write Job 0389a1b9-9f29-4ada-a421-07f5daa9e016.
+INFO	2026-05-31T10:27:03,939	20812	org.apache.spark.scheduler.DAGScheduler	[Thread-10]	60	Job 2 finished: parquet at NativeMethodAccessorImpl.java:0, took 1.664376 s
+INFO	2026-05-31T10:27:03,937	20810	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Killing all running tasks in stage 2: Stage finished
+INFO	2026-05-31T10:27:03,937	20810	org.apache.spark.scheduler.TaskSchedulerImpl	[task-result-getter-2]	60	Removed TaskSet 2.0, whose tasks have all completed, from pool 
+INFO	2026-05-31T10:27:03,936	20809	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+INFO	2026-05-31T10:27:03,934	20807	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	ResultStage 2 (parquet at NativeMethodAccessorImpl.java:0) finished in 1.651 s
+INFO	2026-05-31T10:27:03,932	20805	org.apache.spark.scheduler.TaskSetManager	[task-result-getter-2]	60	Finished task 0.0 in stage 2.0 (TID 2) in 1589 ms on 172.36.89.161 (executor 1) (1/1)
+INFO	2026-05-31T10:27:03,088	19961	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_8_piece0 in memory on 172.36.89.161:34451 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:02,470	19343	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_7_piece0 in memory on 172.36.89.161:34451 (size: 235.0 B, free: 5.8 GiB)
+INFO	2026-05-31T10:27:02,364	19237	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_9_piece0 in memory on 172.36.89.161:34451 (size: 129.5 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:02,344	19217	org.apache.spark.scheduler.TaskSetManager	[dispatcher-CoarseGrainedScheduler]	60	Starting task 0.0 in stage 2.0 (TID 2) (172.36.89.161, executor 1, partition 0, ANY, 10522 bytes) 
+INFO	2026-05-31T10:27:02,340	19213	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[16] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+INFO	2026-05-31T10:27:02,341	19214	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Adding task set 2.0 with 1 tasks resource profile 0
+INFO	2026-05-31T10:27:02,339	19212	org.apache.spark.SparkContext	[dag-scheduler-event-loop]	60	Created broadcast 9 from broadcast at DAGScheduler.scala:1721
+INFO	2026-05-31T10:27:02,338	19211	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_9_piece0 in memory on 172.34.63.75:46011 (size: 129.5 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:02,337	19210	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_9_piece0 stored as bytes in memory (estimated size 129.5 KiB, actual size: 129.5 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:02,332	19205	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_9 stored as values in memory (estimated size 354.4 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:02,276	19149	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Got job 2 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+INFO	2026-05-31T10:27:02,276	19149	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Final stage: ResultStage 2 (parquet at NativeMethodAccessorImpl.java:0)
+INFO	2026-05-31T10:27:02,277	19150	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Parents of final stage: List()
+INFO	2026-05-31T10:27:02,277	19150	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Missing parents: List()
+INFO	2026-05-31T10:27:02,278	19151	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting ResultStage 2 (MapPartitionsRDD[16] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+INFO	2026-05-31T10:27:02,271	19144	org.apache.spark.SparkContext	[Thread-10]	60	Starting job: parquet at NativeMethodAccessorImpl.java:0
+INFO	2026-05-31T10:27:02,253	19126	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes, number of split files: 1, prefetch: false
+INFO	2026-05-31T10:27:02,254	19127	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	relation: None, fileSplitsInPartitionHistogram: Vector((1 fileSplits,1))
+INFO	2026-05-31T10:27:02,251	19124	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 8 from parquet at NativeMethodAccessorImpl.java:0
+INFO	2026-05-31T10:27:02,250	19123	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_8_piece0 in memory on 172.34.63.75:46011 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:02,249	19122	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_8_piece0 stored as bytes in memory (estimated size 59.1 KiB, actual size: 59.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:02,229	19102	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_8 stored as values in memory (estimated size 302.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:02,223	19096	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 19.327199 ms
+INFO	2026-05-31T10:27:02,197	19070	org.apache.spark.sql.execution.datasources.MagicCommitProtocol	[Thread-10]	60	Using committer MagicCommitProtocolParquetOutputCommitter(BindingPathOutputCommitter{committer=MagicV2Committer{MagicCommitter{AbstractS3ACommitter{role=Task committer attempt_202605311027023877476880056408536_0000_m_000000_0, name=magicv2, outputPath=s3://edp-target-26/target_files/big_file_demo, workPath=s3://edp-target-26/target_files/big_file_demo/__magic_job-0389a1b9-9f29-4ada-a421-07f5daa9e016/job-0389a1b9-9f29-4ada-a421-07f5daa9e016/00/tasks/attempt_202605311027023877476880056408536_0000_m_000000_0/__base, uuid='0389a1b9-9f29-4ada-a421-07f5daa9e016', uuid source=JobUUIDSource{text='spark.sql.sources.writeJobUUID'}}}}})
+INFO	2026-05-31T10:27:02,197	19070	org.apache.hadoop.fs.s3a.commit.magicv2.MagicV2Committer	[Thread-10]	77	Starting: Setup Job (no job ID)
+INFO	2026-05-31T10:27:02,197	19070	org.apache.hadoop.fs.s3a.commit.magicv2.MagicV2Committer	[Thread-10]	98	Setup Job (no job ID): duration 0:00.000s
+INFO	2026-05-31T10:27:02,196	19069	org.apache.hadoop.fs.s3a.commit.AbstractS3ACommitterFactory	[Thread-10]	84	Using committer magicv2 to output data to s3://edp-target-26/target_files/big_file_demo
+INFO	2026-05-31T10:27:02,196	19069	org.apache.hadoop.fs.s3a.commit.AbstractS3ACommitterFactory	[Thread-10]	54	Using Committer MagicV2Committer{MagicCommitter{AbstractS3ACommitter{role=Task committer attempt_202605311027023877476880056408536_0000_m_000000_0, name=magicv2, outputPath=s3://edp-target-26/target_files/big_file_demo, workPath=s3://edp-target-26/target_files/big_file_demo/__magic_job-0389a1b9-9f29-4ada-a421-07f5daa9e016/job-0389a1b9-9f29-4ada-a421-07f5daa9e016/00/tasks/attempt_202605311027023877476880056408536_0000_m_000000_0/__base, uuid='0389a1b9-9f29-4ada-a421-07f5daa9e016', uuid source=JobUUIDSource{text='spark.sql.sources.writeJobUUID'}}}} for s3://edp-target-26/target_files/big_file_demo created by org.apache.hadoop.fs.s3a.commit.S3ACommitterFactory@354cf322
+INFO	2026-05-31T10:27:02,188	19061	org.apache.hadoop.fs.s3a.commit.AbstractS3ACommitter	[Thread-10]	231	Job UUID 0389a1b9-9f29-4ada-a421-07f5daa9e016 source spark.sql.sources.writeJobUUID
+INFO	2026-05-31T10:27:02,178	19051	org.apache.hadoop.mapreduce.lib.output.PathOutputCommitterFactory	[Thread-10]	161	Using schema-specific factory for s3://edp-target-26/target_files/big_file_demo
+INFO	2026-05-31T10:27:02,174	19047	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	153	File Output Committer Algorithm version is 2
+INFO	2026-05-31T10:27:02,174	19047	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	158	FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+INFO	2026-05-31T10:27:02,175	19048	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	153	File Output Committer Algorithm version is 2
+INFO	2026-05-31T10:27:02,175	19048	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	158	FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+INFO	2026-05-31T10:27:02,176	19049	org.apache.spark.sql.execution.datasources.SQLConfCommitterProvider	[Thread-10]	60	Using output committer class com.amazon.emr.committer.EmrOptimizedSparkSqlParquetOutputCommitter
+INFO	2026-05-31T10:27:02,176	19049	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	153	File Output Committer Algorithm version is 2
+INFO	2026-05-31T10:27:02,177	19050	org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter	[Thread-10]	158	FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+INFO	2026-05-31T10:27:02,173	19046	com.amazon.emr.committer.EmrOptimizedParquetOutputCommitter	[Thread-10]	53	EMR Optimized committer is not supported by this filesystem (org.apache.hadoop.fs.s3a.S3AFileSystem)
+INFO	2026-05-31T10:27:02,174	19047	com.amazon.emr.committer.EmrOptimizedParquetOutputCommitter	[Thread-10]	32	Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+INFO	2026-05-31T10:27:02,173	19046	org.apache.spark.sql.execution.datasources.SQLConfCommitterProvider	[Thread-10]	60	Getting user defined output committer class com.amazon.emr.committer.EmrOptimizedSparkSqlParquetOutputCommitter
+WARN	2026-05-31T10:27:02,160	19033	org.apache.parquet.hadoop.ParquetOutputFormat	[Thread-10]	163	Setting parquet.enable.summary-metadata is deprecated, please use parquet.summary.metadata.level
+INFO	2026-05-31T10:27:02,151	19024	org.apache.spark.sql.execution.datasources.parquet.ParquetUtils	[Thread-10]	60	Using user defined output committer for Parquet: com.amazon.emr.committer.EmrOptimizedSparkSqlParquetOutputCommitter
+INFO	2026-05-31T10:27:01,976	18849	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_3_piece0 on 172.34.63.75:46011 in memory (size: 8.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,965	18838	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_3_piece0 on 172.36.89.161:34451 in memory (size: 8.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,941	18814	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_2_piece0 on 172.36.89.161:34451 in memory (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,939	18812	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_2_piece0 on 172.34.63.75:46011 in memory (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,926	18799	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Pushed Filters: 
+INFO	2026-05-31T10:27:01,927	18800	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Post-Scan Filters: 
+INFO	2026-05-31T10:27:01,919	18792	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_6_piece0 on 172.36.89.161:34451 in memory (size: 7.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,907	18780	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_6_piece0 on 172.34.63.75:46011 in memory (size: 7.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,892	18765	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_4_piece0 on 172.34.63.75:46011 in memory (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,892	18765	org.apache.spark.SparkContext	[broadcast-exchange-0]	60	Created broadcast 7 from $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264
+INFO	2026-05-31T10:27:01,891	18764	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_7_piece0 in memory on 172.34.63.75:46011 (size: 235.0 B, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,883	18756	org.apache.spark.storage.memory.MemoryStore	[broadcast-exchange-0]	60	Block broadcast_7_piece0 stored as bytes in memory (estimated size 235.0 B, actual size: 235.0 B, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,842	18715	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Killing all running tasks in stage 1: Stage finished
+INFO	2026-05-31T10:27:01,843	18716	org.apache.spark.scheduler.DAGScheduler	[broadcast-exchange-0]	60	Job 1 finished: $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264, took 0.237078 s
+INFO	2026-05-31T10:27:01,839	18712	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+INFO	2026-05-31T10:27:01,838	18711	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	ResultStage 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:264) finished in 0.225 s
+INFO	2026-05-31T10:27:01,837	18710	org.apache.spark.scheduler.TaskSchedulerImpl	[task-result-getter-1]	60	Removed TaskSet 1.0, whose tasks have all completed, from pool 
+INFO	2026-05-31T10:27:01,836	18709	org.apache.spark.scheduler.TaskSetManager	[task-result-getter-1]	60	Finished task 0.0 in stage 1.0 (TID 1) in 206 ms on 172.36.89.161 (executor 1) (1/1)
+INFO	2026-05-31T10:27:01,696	18569	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_5_piece0 in memory on 172.36.89.161:34451 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,648	18521	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_6_piece0 in memory on 172.36.89.161:34451 (size: 7.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,630	18503	org.apache.spark.scheduler.TaskSetManager	[dispatcher-CoarseGrainedScheduler]	60	Starting task 0.0 in stage 1.0 (TID 1) (172.36.89.161, executor 1, partition 0, ANY, 10522 bytes) 
+INFO	2026-05-31T10:27:01,628	18501	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Adding task set 1.0 with 1 tasks resource profile 0
+INFO	2026-05-31T10:27:01,627	18500	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[12] at $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264) (first 15 tasks are for partitions Vector(0))
+INFO	2026-05-31T10:27:01,625	18498	org.apache.spark.SparkContext	[dag-scheduler-event-loop]	60	Created broadcast 6 from broadcast at DAGScheduler.scala:1721
+INFO	2026-05-31T10:27:01,623	18496	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_6_piece0 in memory on 172.34.63.75:46011 (size: 7.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,622	18495	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_6_piece0 stored as bytes in memory (estimated size 7.6 KiB, actual size: 7.6 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,615	18488	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_6 stored as values in memory (estimated size 14.5 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,610	18483	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting ResultStage 1 (MapPartitionsRDD[12] at $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264), which has no missing parents
+INFO	2026-05-31T10:27:01,609	18482	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Missing parents: List()
+INFO	2026-05-31T10:27:01,608	18481	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Final stage: ResultStage 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:264)
+INFO	2026-05-31T10:27:01,608	18481	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Parents of final stage: List()
+INFO	2026-05-31T10:27:01,607	18480	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Got job 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:264) with 1 output partitions
+INFO	2026-05-31T10:27:01,605	18478	org.apache.spark.SparkContext	[broadcast-exchange-0]	60	Starting job: $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264
+INFO	2026-05-31T10:27:01,574	18447	org.apache.spark.sql.execution.FileSourceScanExec	[broadcast-exchange-0]	60	relation: None, fileSplitsInPartitionHistogram: Vector((1 fileSplits,1))
+INFO	2026-05-31T10:27:01,571	18444	org.apache.spark.sql.execution.FileSourceScanExec	[broadcast-exchange-0]	60	Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes, number of split files: 1, prefetch: false
+INFO	2026-05-31T10:27:01,559	18432	org.apache.spark.SparkContext	[broadcast-exchange-0]	60	Created broadcast 5 from $anonfun$withThreadLocalCaptured$1 at FutureTask.java:264
+INFO	2026-05-31T10:27:01,546	18419	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_5_piece0 in memory on 172.34.63.75:46011 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,545	18418	org.apache.spark.storage.memory.MemoryStore	[broadcast-exchange-0]	60	Block broadcast_5_piece0 stored as bytes in memory (estimated size 59.1 KiB, actual size: 59.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,522	18395	org.apache.spark.storage.memory.MemoryStore	[broadcast-exchange-0]	60	Block broadcast_5 stored as values in memory (estimated size 302.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,465	18338	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv#1.recordsRead is already registered by a different accumulator. Retrying with suffix #2.
+INFO	2026-05-31T10:27:01,464	18337	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv#1.bytesRead is already registered by a different accumulator. Retrying with suffix #2.
+INFO	2026-05-31T10:27:01,464	18337	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.recordsRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,463	18336	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv#1.filesRead is already registered by a different accumulator. Retrying with suffix #2.
+INFO	2026-05-31T10:27:01,463	18336	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.bytesRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,461	18334	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.recordsRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,462	18335	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.filesRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,460	18333	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.bytesRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,449	18322	org.apache.spark.metrics.source.ThroughputMetricsSource	[spark-listener-group-shared]	30	Metric: s3://edp-source-26/source_files/orders/part-00000_orders_1.csv.filesRead is already registered by a different accumulator. Retrying with suffix #1.
+INFO	2026-05-31T10:27:01,312	18185	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Post-Scan Filters: 
+INFO	2026-05-31T10:27:01,312	18185	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Pushed Filters: 
+INFO	2026-05-31T10:27:01,309	18182	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Pushed Filters: 
+INFO	2026-05-31T10:27:01,310	18183	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Post-Scan Filters: 
+INFO	2026-05-31T10:27:01,213	18086	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	232	Mapping EMRFS config fs.s3.metadata.cache.expiration.seconds to S3A config fs.s3a.metadata.cache.expiration.seconds
+INFO	2026-05-31T10:27:01,214	18087	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	220	Mapping EMRFS config fs.s3.buffer.dir to S3A config fs.s3a.buffer.dir
+INFO	2026-05-31T10:27:01,214	18087	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	232	Mapping EMRFS config fs.s3.maxConnections to S3A config fs.s3a.connection.maximum
+INFO	2026-05-31T10:27:01,095	17968	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes, number of split files: 1, prefetch: false
+INFO	2026-05-31T10:27:01,096	17969	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	relation: None, fileSplitsInPartitionHistogram: Vector((1 fileSplits,1))
+INFO	2026-05-31T10:27:01,093	17966	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 4 from csv at NativeMethodAccessorImpl.java:0
+INFO	2026-05-31T10:27:01,087	17960	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_4_piece0 in memory on 172.34.63.75:46011 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:27:01,086	17959	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_4_piece0 stored as bytes in memory (estimated size 59.1 KiB, actual size: 59.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,067	17940	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_4 stored as values in memory (estimated size 302.2 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:27:01,054	17927	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Post-Scan Filters: 
+INFO	2026-05-31T10:27:01,054	17927	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Pushed Filters: 
+INFO	2026-05-31T10:27:00,979	17852	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Posted SparkListenerSQLExecutionObfuscatedInfo in 4 ms
+INFO	2026-05-31T10:27:00,976	17849	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Generating and posting SparkListenerSQLExecutionObfuscatedInfo...
+INFO	2026-05-31T10:27:00,964	17837	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 13.813183 ms
+INFO	2026-05-31T10:27:00,935	17808	org.apache.spark.scheduler.DAGScheduler	[Thread-10]	60	Job 0 finished: csv at NativeMethodAccessorImpl.java:0, took 2.068495 s
+INFO	2026-05-31T10:27:00,932	17805	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Killing all running tasks in stage 0: Stage finished
+INFO	2026-05-31T10:27:00,929	17802	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+INFO	2026-05-31T10:27:00,919	17792	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	ResultStage 0 (csv at NativeMethodAccessorImpl.java:0) finished in 1.961 s
+INFO	2026-05-31T10:27:00,910	17783	org.apache.spark.scheduler.TaskSchedulerImpl	[task-result-getter-0]	60	Removed TaskSet 0.0, whose tasks have all completed, from pool 
+INFO	2026-05-31T10:27:00,908	17781	org.apache.spark.scheduler.TaskSetManager	[task-result-getter-0]	60	Finished task 0.0 in stage 0.0 (TID 0) in 1777 ms on 172.36.89.161 (executor 1) (1/1)
+INFO	2026-05-31T10:27:00,143	17016	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_2_piece0 in memory on 172.36.89.161:34451 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:59,382	16255	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_3_piece0 in memory on 172.36.89.161:34451 (size: 8.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:59,146	16019	org.apache.spark.scheduler.TaskSetManager	[dispatcher-CoarseGrainedScheduler]	60	Starting task 0.0 in stage 0.0 (TID 0) (172.36.89.161, executor 1, partition 0, ANY, 10522 bytes) 
+INFO	2026-05-31T10:26:59,110	15983	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Adding task set 0.0 with 1 tasks resource profile 0
+INFO	2026-05-31T10:26:59,107	15980	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+INFO	2026-05-31T10:26:59,084	15957	org.apache.spark.SparkContext	[dag-scheduler-event-loop]	60	Created broadcast 3 from broadcast at DAGScheduler.scala:1721
+INFO	2026-05-31T10:26:59,082	15955	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_3_piece0 in memory on 172.34.63.75:46011 (size: 8.6 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:59,081	15954	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_3_piece0 stored as bytes in memory (estimated size 8.6 KiB, actual size: 8.6 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:59,076	15949	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_3 stored as values in memory (estimated size 17.8 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:58,902	15775	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0), which has no missing parents
+INFO	2026-05-31T10:26:58,887	15760	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Missing parents: List()
+INFO	2026-05-31T10:26:58,886	15759	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Final stage: ResultStage 0 (csv at NativeMethodAccessorImpl.java:0)
+INFO	2026-05-31T10:26:58,886	15759	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Parents of final stage: List()
+INFO	2026-05-31T10:26:58,885	15758	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Got job 0 (csv at NativeMethodAccessorImpl.java:0) with 1 output partitions
+INFO	2026-05-31T10:26:58,866	15739	org.apache.spark.SparkContext	[Thread-10]	60	Starting job: csv at NativeMethodAccessorImpl.java:0
+INFO	2026-05-31T10:26:58,771	15644	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 241.643287 ms
+INFO	2026-05-31T10:26:58,452	15325	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	relation: None, fileSplitsInPartitionHistogram: Vector((1 fileSplits,1))
+INFO	2026-05-31T10:26:58,444	15317	org.apache.spark.sql.execution.FileSourceScanExec	[Thread-10]	60	Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes, number of split files: 1, prefetch: false
+INFO	2026-05-31T10:26:58,401	15274	com.hadoop.compression.lzo.LzoCodec	[Thread-10]	76	Successfully loaded & initialized native-lzo library [hadoop-lzo rev c7c2a64be6e2e90e098028216b616e76a65733f9]
+INFO	2026-05-31T10:26:58,399	15272	com.hadoop.compression.lzo.GPLNativeCodeLoader	[Thread-10]	34	Loaded native gpl library
+INFO	2026-05-31T10:26:58,338	15211	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 2 from csv at NativeMethodAccessorImpl.java:0
+INFO	2026-05-31T10:26:58,334	15207	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_2_piece0 in memory on 172.34.63.75:46011 (size: 59.1 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:58,333	15206	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_2_piece0 stored as bytes in memory (estimated size 59.1 KiB, actual size: 59.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:58,311	15184	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_2 stored as values in memory (estimated size 302.2 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:57,964	14837	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Post-Scan Filters: (length(trim(value#0, None)) > 0)
+INFO	2026-05-31T10:26:57,962	14835	org.apache.spark.sql.execution.datasources.FileSourceStrategy	[Thread-10]	60	Pushed Filters: 
+INFO	2026-05-31T10:26:57,054	13927	org.apache.spark.storage.BlockManagerMasterEndpoint	[dispatcher-BlockManagerMaster]	60	Registering block manager 172.36.89.161:34451 with 5.8 GiB RAM, BlockManagerId(1, 172.36.89.161, 34451, None)
+INFO	2026-05-31T10:26:56,985	13858	org.apache.spark.scheduler.dynalloc.ExecutorMonitor	[spark-listener-group-executorManagement]	60	New executor 1 has registered (new total is 1)
+INFO	2026-05-31T10:26:56,976	13849	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[spark-listener-group-shared]	60	connected executor 1
+INFO	2026-05-31T10:26:56,975	13848	org.apache.spark.scheduler.cluster.glue.ExecutorEventListener	[spark-listener-group-shared]	60	Got executor added event for 1 @ 1780223216974
+INFO	2026-05-31T10:26:56,973	13846	org.apache.spark.executor.ExecutorLogUrlHandler	[dispatcher-CoarseGrainedScheduler]	60	Fail to renew executor log urls: some of required attributes are missing in app's event log.. Required: Set(CONTAINER_ID) / available: Set(). Falling back to show app's original log urls.
+INFO	2026-05-31T10:26:56,971	13844	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.36.89.161:42544) with ID 1,  ResourceProfileId 0
+INFO	2026-05-31T10:26:55,022	11895	org.apache.spark.sql.execution.datasources.InMemoryFileIndex	[Thread-10]	60	It took 35 ms to list leaf files for 1 paths.
+INFO	2026-05-31T10:26:54,914	11787	org.apache.spark.sql.execution.datasources.InMemoryFileIndex	[Thread-10]	60	It took 62 ms to list leaf files for 1 paths.
+INFO	2026-05-31T10:26:54,545	11418	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	220	Mapping EMRFS config fs.s3.buffer.dir to S3A config fs.s3a.buffer.dir
+INFO	2026-05-31T10:26:54,545	11418	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	232	Mapping EMRFS config fs.s3.maxConnections to S3A config fs.s3a.connection.maximum
+INFO	2026-05-31T10:26:54,545	11418	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	232	Mapping EMRFS config fs.s3.metadata.cache.expiration.seconds to S3A config fs.s3a.metadata.cache.expiration.seconds
+INFO	2026-05-31T10:26:54,204	11077	org.opensearch.hadoop.util.Version	[Thread-10]	143	OpenSearch Hadoop v1.2.0 [2a4148055f]
+INFO	2026-05-31T10:26:53,339	10212	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_1_piece0 on 172.34.63.75:46011 in memory (size: 40.8 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:53,319	10192	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_0_piece0 on 172.34.63.75:46011 in memory (size: 40.8 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:52,730	9603	org.apache.spark.sql.internal.SharedState	[Thread-10]	60	Warehouse path is 'file:/tmp/spark-warehouse'.
+INFO	2026-05-31T10:26:52,711	9584	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 1 from broadcast at DynamoConnection.scala:55
+INFO	2026-05-31T10:26:52,714	9587	com.amazonaws.services.glue.util.JobBookmark$	[Thread-10]	71	jobbookmark is not enabled, do not init AWSGlueJobBookMarkService
+INFO	2026-05-31T10:26:52,726	9599	org.apache.spark.sql.internal.SharedState	[Thread-10]	60	spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir.
+INFO	2026-05-31T10:26:52,707	9580	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_1_piece0 in memory on 172.34.63.75:46011 (size: 40.8 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:52,706	9579	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_1_piece0 stored as bytes in memory (estimated size 40.8 KiB, actual size: 40.8 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:52,686	9559	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_1 stored as values in memory (estimated size 243.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:52,673	9546	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 0 from broadcast at DynamoConnection.scala:55
+INFO	2026-05-31T10:26:52,667	9540	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_0_piece0 in memory on 172.34.63.75:46011 (size: 40.8 KiB, free: 5.8 GiB)
+INFO	2026-05-31T10:26:52,664	9537	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_0_piece0 stored as bytes in memory (estimated size 40.8 KiB, actual size: 40.8 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:52,594	9467	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_0 stored as values in memory (estimated size 243.1 KiB, free 5.8 GiB)
+INFO	2026-05-31T10:26:52,462	9335	com.amazonaws.services.glue.util.AvroReaderUtil$	[Thread-10]	245	Creating default Avro field parser for version 1.7.
+INFO	2026-05-31T10:26:52,440	9313	com.amazonaws.services.glue.utils.EndpointConfig$	[Thread-10]	88	Endpoints: {credentials_provider=com.amazonaws.auth.DefaultAWSCredentialsProviderChain, glue.endpoint=https://glue.ap-south-1.amazonaws.com, lakeformation.endpoint=https://lakeformation.ap-south-1.amazonaws.com, jes.endpoint=https://glue-jes.ap-south-1.amazonaws.com, region=ap-south-1}
+INFO	2026-05-31T10:26:52,439	9312	com.amazonaws.services.glue.utils.EndpointConfig$	[Thread-10]	34	 STAGE is prod
+INFO	2026-05-31T10:26:52,438	9311	com.amazonaws.services.glue.util.FileListPersistence	[Thread-10]	37	create FileListPersistence with conf: fs.s3.serverSideEncryption.kms.keyId: None
+INFO	2026-05-31T10:26:52,424	9297	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	220	Mapping EMRFS config fs.s3.buffer.dir to S3A config fs.s3a.buffer.dir
+INFO	2026-05-31T10:26:52,425	9298	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[Thread-10]	232	Mapping EMRFS config fs.s3.maxConnections to S3A config fs.s3a.connection.maximum
+INFO	2026-05-31T10:26:52,420	9293	com.amazonaws.services.glue.util.Job$	[Thread-10]	103	Job run ID under runId method is jr_72fba4d8036744daec9081ee50f0fece4f2af01ad86136039c2ae1f86fb80a1e 
+INFO	2026-05-31T10:26:52,420	9293	com.amazonaws.services.glue.util.Job$	[Thread-10]	94	runId Method is Invoked 
+INFO	2026-05-31T10:26:52,397	9270	org.apache.spark.metrics.source.ObservabilityTaskInfoRecorderListener	[Thread-10]	68	PerformanceMetricsSource is initiated
+INFO	2026-05-31T10:26:52,398	9271	com.amazonaws.services.glue.GlueContext	[Thread-10]	129	ObservabilityMetrics configured and enabled
+INFO	2026-05-31T10:26:52,396	9269	org.apache.spark.metrics.source.StageSkewness	[Thread-10]	29	[Observability] Skewness metric using Skewness Factor = 5
+INFO	2026-05-31T10:26:52,395	9268	org.apache.spark.metrics.source.ObservabilityTaskInfoRecorderListener	[Thread-10]	53	ResourceUtilizationMetricsSource is initiated
+INFO	2026-05-31T10:26:52,383	9256	org.apache.spark.metrics.source.ObservabilityTaskInfoRecorderListener	[Thread-10]	28	ThroughputMetricsSource is initiated
+INFO	2026-05-31T10:26:52,381	9254	com.amazonaws.services.glue.GlueContext	[Thread-10]	121	GlueMetrics configured and enabled
+INFO	2026-05-31T10:26:51,988	8861	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+INFO	2026-05-31T10:26:51,984	8857	org.apache.spark.executor.ExecutorLogUrlHandler	[Thread-10]	60	Fail to renew executor log urls: some of required attributes are missing in app's event log.. Required: Set(CONTAINER_ID) / available: Set(). Falling back to show app's original log urls.
+INFO	2026-05-31T10:26:51,967	8840	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	getDriverLogUrls Map()
+INFO	2026-05-31T10:26:51,934	8807	org.apache.spark.SparkContext	[Thread-10]	60	Registered listener glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics
+INFO	2026-05-31T10:26:51,935	8808	org.apache.spark.SparkContext	[Thread-10]	60	Registered listener glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics
+INFO	2026-05-31T10:26:51,934	8807	org.apache.spark.SparkContext	[Thread-10]	60	Registered listener com.amazonaws.services.glueexceptionanalysis.GlueExceptionAnalysisListener
+INFO	2026-05-31T10:26:51,934	8807	org.apache.spark.SparkContext	[Thread-10]	60	Registered listener com.amazonaws.services.gluedi.sensei.autodebugging.listeners.AutoDebuggingListener
+INFO	2026-05-31T10:26:51,933	8806	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[Thread-10]	173	Using json as serialization format.
+INFO	2026-05-31T10:26:51,933	8806	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[Thread-10]	195	Writing output to /tmp/taskMetrics_flightRecorder
+INFO	2026-05-31T10:26:51,931	8804	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[Thread-10]	173	Using json as serialization format.
+INFO	2026-05-31T10:26:51,931	8804	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[Thread-10]	195	Writing output to /tmp/stageMetrics_flightRecorder
+INFO	2026-05-31T10:26:51,925	8798	com.amazonaws.services.gluedi.sensei.autodebugging.writers.AutoDebuggingEventLogFileWriter	[Thread-10]	62	Started file writer.
+INFO	2026-05-31T10:26:51,909	8782	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[executorAllocator]	60	executor task g-5f3c14f71b887ccabc0fc7979a5f02b38e8fb460 created for executor 1 in resource profile 0
+INFO	2026-05-31T10:26:51,908	8781	org.apache.spark.deploy.glue.client.GlueTaskGroupRMClient	[executorAllocator]	60	createChildTask API response code 200
+INFO	2026-05-31T10:26:51,897	8770	com.amazonaws.services.glueexceptionanalysis.EventLogFileWriter	[Thread-10]	51	Started file writer for com.amazonaws.services.glueexceptionanalysis.EventLogFileWriter
+INFO	2026-05-31T10:26:51,861	8734	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	Set total expected executors: rpId: 0, numExecs: 1
+INFO	2026-05-31T10:26:51,862	8735	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	Requested total executors are 1
+INFO	2026-05-31T10:26:51,847	8720	org.apache.spark.util.Utils	[Thread-10]	60	Using initial executors = 1, min of effectiveMaxExecutors, (max of spark.dynamicAllocation.initialExecutors, spark.dynamicAllocation.minExecutors and spark.executor.instances)
+INFO	2026-05-31T10:26:51,848	8721	org.apache.spark.ExecutorAllocationManager	[Thread-10]	60	Dynamic allocation is enabled without a shuffle service.
+INFO	2026-05-31T10:26:51,847	8720	org.apache.spark.util.Utils	[Thread-10]	60	Using effectiveMaxExecutors = 3, (spark.dynamicAllocation.maxExecutors * spark.dynamicAllocation.maxExecutorsRatio)
+INFO	2026-05-31T10:26:51,679	8552	org.apache.spark.deploy.history.RollingEventLogFilesWriter	[Thread-10]	60	Logging events to file:/var/log/spark/apps/eventlog_v2_spark-application-1780223210724/events_1_spark-application-1780223210724
+INFO	2026-05-31T10:26:51,334	8207	org.apache.spark.metrics.sink.GlueCloudwatchSink	[Thread-10]	16	CloudwatchSink: jobName: scale-out-demo jobRunId: jr_72fba4d8036744daec9081ee50f0fece4f2af01ad86136039c2ae1f86fb80a1e
+INFO	2026-05-31T10:26:50,898	7771	org.apache.spark.storage.BlockManager	[Thread-10]	60	Initialized BlockManager: BlockManagerId(driver, 172.34.63.75, 46011, None)
+INFO	2026-05-31T10:26:50,897	7770	org.apache.spark.storage.BlockManagerMaster	[Thread-10]	60	Registered BlockManager BlockManagerId(driver, 172.34.63.75, 46011, None)
+INFO	2026-05-31T10:26:50,881	7754	org.apache.spark.storage.BlockManagerMasterEndpoint	[dispatcher-BlockManagerMaster]	60	Registering block manager 172.34.63.75:46011 with 5.8 GiB RAM, BlockManagerId(driver, 172.34.63.75, 46011, None)
+INFO	2026-05-31T10:26:50,875	7748	org.apache.spark.storage.BlockManagerMaster	[Thread-10]	60	Registering BlockManager BlockManagerId(driver, 172.34.63.75, 46011, None)
+INFO	2026-05-31T10:26:50,873	7746	org.apache.spark.deploy.glue.client.GlueTaskGroupRMClient	[executorAllocator]	60	Sending request to JES
+INFO	2026-05-31T10:26:50,863	7736	org.apache.spark.storage.BlockManager	[Thread-10]	60	Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+INFO	2026-05-31T10:26:50,860	7733	org.apache.spark.network.netty.NettyBlockTransferService	[Thread-10]	88	Server created on 172.34.63.75:46011
+INFO	2026-05-31T10:26:50,860	7733	org.apache.spark.util.Utils	[Thread-10]	60	Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46011.
+INFO	2026-05-31T10:26:50,840	7713	org.apache.spark.deploy.glue.client.GlueTaskGroupRMClient	[executorAllocator]	60	creating executor task for executor 1; clientToken gr_tg-347554d037e424b00d2f9e9e05ce6df01afd04e8_e_1_a_spark-application-1780223210724_p_1
+INFO	2026-05-31T10:26:50,838	7711	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[executorAllocator]	60	Creating new task with arguments List(--driver-url, spark://CoarseGrainedScheduler@172.34.63.75:38541, --executor-id, 1, --app-id, spark-application-1780223210724, --cores, 4, --resourceProfileId, 0)
+INFO	2026-05-31T10:26:50,834	7707	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[executorAllocator]	60	Creating executors task for application spark-application-1780223210724 with resource profile 0
+INFO	2026-05-31T10:26:50,825	7698	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	Initial executors are 1
+INFO	2026-05-31T10:26:50,825	7698	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	Set total expected executors: rpId: 0, numExecs: 1
+INFO	2026-05-31T10:26:50,823	7696	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	Starting JES Scheduler Backend.
+INFO	2026-05-31T10:26:50,734	7607	org.apache.spark.util.Utils	[Thread-10]	60	Using initial executors = 1, min of effectiveMaxExecutors, (max of spark.dynamicAllocation.initialExecutors, spark.dynamicAllocation.minExecutors and spark.executor.instances)
+INFO	2026-05-31T10:26:50,732	7605	org.apache.spark.util.Utils	[Thread-10]	60	Using effectiveMaxExecutors = 3, (spark.dynamicAllocation.maxExecutors * spark.dynamicAllocation.maxExecutorsRatio)
+INFO	2026-05-31T10:26:50,729	7602	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[Thread-10]	60	JESSchedulerBackend
+INFO	2026-05-31T10:26:50,470	7343	org.apache.spark.deploy.glue.client.GlueRMClientFactory	[Thread-10]	60	JESClusterManager: Initializing JES client with endpoint: https://glue-jes.ap-south-1.amazonaws.com
+INFO	2026-05-31T10:26:50,467	7340	org.apache.spark.scheduler.cluster.glue.JESClusterManager	[Thread-10]	121	Python path for executors: python_environment
+INFO	2026-05-31T10:26:49,864	6737	org.apache.spark.SparkContext	[Thread-10]	60	Unpacking an archive /tmp/glue-job-10606152944371346521_glue_venv.zip#python_environment from /tmp/spark-b2a129ae-caa9-4627-bf44-a15c77308327/glue-job-10606152944371346521_glue_venv.zip to /tmp/spark-2097c35a-dea8-4e24-97b7-79bd17fdff6f/userFiles-85dacdcb-8007-4217-a9de-2eac96b18424/python_environment
+INFO	2026-05-31T10:26:49,822	6695	org.apache.spark.util.Utils	[Thread-10]	60	Copying /tmp/glue-job-10606152944371346521_glue_venv.zip to /tmp/spark-b2a129ae-caa9-4627-bf44-a15c77308327/glue-job-10606152944371346521_glue_venv.zip
+INFO	2026-05-31T10:26:49,821	6694	org.apache.spark.SparkContext	[Thread-10]	60	Added archive /tmp/glue-job-10606152944371346521_glue_venv.zip#python_environment at spark://172.34.63.75:38541/files/glue-job-10606152944371346521_glue_venv.zip with timestamp 1780223209200
+INFO	2026-05-31T10:26:49,793	6666	org.apache.spark.SparkContext	[Thread-10]	60	Added JAR /tmp/glue-job-10606152944371346521/jars/jaPg8R-AwsGlueMLLibs.jar at spark://172.34.63.75:38541/jars/jaPg8R-AwsGlueMLLibs.jar with timestamp 1780223209200
+INFO	2026-05-31T10:26:49,792	6665	org.apache.spark.SparkContext	[Thread-10]	60	Added JAR /tmp/glue-job-10606152944371346521/jars/rTSWUd-aws-glue-di-package-5.1.859.jar at spark://172.34.63.75:38541/jars/rTSWUd-aws-glue-di-package-5.1.859.jar with timestamp 1780223209200
+INFO	2026-05-31T10:26:49,790	6663	org.apache.spark.SparkContext	[Thread-10]	60	Added JAR /tmp/glue-job-10606152944371346521/jars/ogK48k-AWSGlueISArtifact-1.0.0.jar at spark://172.34.63.75:38541/jars/ogK48k-AWSGlueISArtifact-1.0.0.jar with timestamp 1780223209200
+INFO	2026-05-31T10:26:49,759	6632	org.apache.spark.subresultcache.SubResultCacheManager	[Thread-10]	60	Sub-result caches are disabled.
+INFO	2026-05-31T10:26:49,751	6624	org.apache.spark.SparkEnv	[Thread-10]	60	Registering OutputCommitCoordinator
+INFO	2026-05-31T10:26:49,717	6590	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	MemoryStore started with capacity 5.8 GiB
+INFO	2026-05-31T10:26:49,703	6576	org.apache.spark.storage.DiskBlockManager	[Thread-10]	60	Created local directory at /tmp/blockmgr-a4a5ddd8-37ee-4d7d-ad08-ca7359f5c5b6
+INFO	2026-05-31T10:26:49,691	6564	org.apache.spark.SparkEnv	[Thread-10]	60	Registering BlockManagerMasterHeartbeat
+INFO	2026-05-31T10:26:49,686	6559	org.apache.spark.storage.BlockManagerMasterEndpoint	[Thread-10]	60	Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+INFO	2026-05-31T10:26:49,687	6560	org.apache.spark.storage.BlockManagerMasterEndpoint	[Thread-10]	60	BlockManagerMasterEndpoint up
+INFO	2026-05-31T10:26:49,665	6538	org.apache.spark.SparkEnv	[Thread-10]	60	Registering BlockManagerMaster
+INFO	2026-05-31T10:26:49,627	6500	org.apache.spark.SparkEnv	[Thread-10]	60	Registering MapOutputTracker
+INFO	2026-05-31T10:26:49,599	6472	org.apache.spark.util.Utils	[Thread-10]	60	Successfully started service 'sparkDriver' on port 38541.
+INFO	2026-05-31T10:26:49,365	6238	org.apache.spark.SecurityManager	[Thread-10]	60	Changing modify acls groups to: 
+INFO	2026-05-31T10:26:49,366	6239	org.apache.spark.SecurityManager	[Thread-10]	60	SecurityManager: authentication enabled; ui acls disabled; users with view permissions: hadoop; groups with view permissions: EMPTY; users with modify permissions: hadoop; groups with modify permissions: EMPTY
+INFO	2026-05-31T10:26:49,364	6237	org.apache.spark.SecurityManager	[Thread-10]	60	Changing modify acls to: hadoop
+INFO	2026-05-31T10:26:49,365	6238	org.apache.spark.SecurityManager	[Thread-10]	60	Changing view acls groups to: 
+INFO	2026-05-31T10:26:49,364	6237	org.apache.spark.SecurityManager	[Thread-10]	60	Changing view acls to: hadoop
+INFO	2026-05-31T10:26:49,286	6159	org.apache.spark.resource.ResourceProfile	[Thread-10]	60	User executor ResourceProfile created, executor resources: Map(executorType -> name: executorType, amount: 1, script: , vendor: , cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 10240, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+INFO	2026-05-31T10:26:49,287	6160	org.apache.spark.resource.ResourceProfile	[Thread-10]	60	Limiting resource is cpus at 4 tasks per executor
+INFO	2026-05-31T10:26:49,287	6160	org.apache.spark.resource.ResourceProfileManager	[Thread-10]	60	Added ResourceProfile id: 1
+INFO	2026-05-31T10:26:49,283	6156	org.apache.spark.resource.ResourceProfileManager	[Thread-10]	60	Added ResourceProfile id: 0
+INFO	2026-05-31T10:26:49,281	6154	org.apache.spark.resource.ResourceProfile	[Thread-10]	60	Limiting resource is cpus at 4 tasks per executor
+INFO	2026-05-31T10:26:49,268	6141	org.apache.spark.resource.ResourceProfile	[Thread-10]	60	Default ResourceProfile created, executor resources: Map(executorType -> name: executorType, amount: 1, script: , vendor: , cores -> name: cores, amount: 4, script: , vendor: , memory -> name: memory, amount: 10240, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+INFO	2026-05-31T10:26:49,242	6115	org.apache.spark.SparkContext	[Thread-10]	60	Submitted application: nativespark-scale-out-demo-jr_72fba4d8036744daec9081ee50f0fece4f2af01ad86136039c2ae1f86fb80a1e
+INFO	2026-05-31T10:26:49,241	6114	org.apache.spark.resource.ResourceUtils	[Thread-10]	60	No custom resources configured for spark.driver.
+INFO	2026-05-31T10:26:49,242	6115	org.apache.spark.resource.ResourceUtils	[Thread-10]	60	==============================================================
+INFO	2026-05-31T10:26:49,241	6114	org.apache.spark.resource.ResourceUtils	[Thread-10]	60	==============================================================
+INFO	2026-05-31T10:26:49,209	6082	org.apache.spark.SparkContext	[Thread-10]	60	Java version 17.0.19
+INFO	2026-05-31T10:26:49,209	6082	org.apache.spark.SparkContext	[Thread-10]	60	OS info Linux, 5.10.253-252.1015.amzn2.x86_64, amd64
+INFO	2026-05-31T10:26:49,208	6081	org.apache.spark.SparkContext	[Thread-10]	60	Running Spark version 3.5.6-amzn-1
+INFO	2026-05-31T10:26:49,197	6070	org.apache.spark.emr.EMRParamSideChannel	[Thread-10]	177	Setting FGAC mode to false
+INFO	2026-05-31T10:26:47,697	4570	com.amazonaws.services.glue.SafeLogging	[main]	60	Initializing logging subsystem
+INFO	2026-05-31T10:26:47,664	4537	com.amazonaws.services.gluedi.sensei.autodebugging.AutoDebuggingProxy	[main]	198	initializing AutoDebuggingProxy
+INFO	2026-05-31T10:26:47,584	4457	com.amazonaws.services.glue.utils.EndpointConfig$	[main]	88	Endpoints: {credentials_provider=com.amazonaws.auth.DefaultAWSCredentialsProviderChain, glue.endpoint=https://glue.ap-south-1.amazonaws.com, lakeformation.endpoint=https://lakeformation.ap-south-1.amazonaws.com, jes.endpoint=https://glue-jes.ap-south-1.amazonaws.com, region=ap-south-1}
+INFO	2026-05-31T10:26:47,579	4452	com.amazonaws.services.glue.utils.EndpointConfig$	[main]	34	 STAGE is prod
+INFO	2026-05-31T10:26:46,111	2984	org.apache.hadoop.metrics2.impl.MetricsSystemImpl	[main]	378	Scheduled Metric snapshot period at 10 second(s).
+INFO	2026-05-31T10:26:46,112	2985	org.apache.hadoop.metrics2.impl.MetricsSystemImpl	[main]	191	s3a-file-system metrics system started
+INFO	2026-05-31T10:26:46,088	2961	org.apache.hadoop.metrics2.impl.MetricsConfig	[main]	122	Loaded properties from hadoop-metrics2.properties
+INFO	2026-05-31T10:26:45,913	2786	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[main]	220	Mapping EMRFS config fs.s3.buffer.dir to S3A config fs.s3a.buffer.dir
+INFO	2026-05-31T10:26:45,914	2787	org.apache.hadoop.fs.s3a.EMRFSToS3AConfigMapping	[main]	232	Mapping EMRFS config fs.s3.maxConnections to S3A config fs.s3a.connection.maximum
+INFO	2026-05-31T10:26:45,474	2347	com.amazonaws.services.glue.LogPusher	[main]	60	legacyLogging: true - logs will be written with spark application ID
+INFO	2026-05-31T10:26:45,467	2340	com.amazonaws.services.glue.LogPusher	[main]	60	standardLogging: true - logs will be written with job run ID or session ID
+INFO	2026-05-31T10:26:45,458	2331	com.amazonaws.services.glue.SparkUICleaner	[main]	60	SparkUILogFileCleanerThread started
+Sun May 31 10:26:43 UTC 2026
+Launching ...
+Running autoDebugger shutdown hook.
+INFO	2026-05-31T10:26:42,702	13259	com.amazonaws.services.glue.utils.concurrent.GlueConcurrentAsyncProcessingService	[main]	76	shutdownAsyncProcessing has been completed
+INFO	2026-05-31T10:26:42,702	13259	com.amazonaws.services.glue.utils.concurrent.GlueConcurrentAsyncProcessingService	[main]	50	shutdownAsyncProcessing has been Started
+INFO	2026-05-31T10:26:42,693	13250	com.amazonaws.services.glue.utils.concurrent.PythonModuleTask	[pool-4-thread-1]	39	Setting Up Virtual Env and Application Python Modules has been completed in async mode
+INFO	2026-05-31T10:26:42,553	13110	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute /usr/bin/bash /tmp/glue-job-10606152944371346521/pythonmodules/createvenvzip.sh /tmp/glue_venv /tmp/glue-job-10606152944371346521_glue_venv.zip
+INFO	2026-05-31T10:26:40,360	10917	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute /usr/bin/bash /tmp/glue-job-10606152944371346521/pythonmodules/pythonmoduleinstaller.sh /tmp/glue_venv --no-index --no-deps /tmp/glue-job-10606152944371346521/python/z3ong0-AwsGlueMLLibs/amzn_awsgluemlpythonlibs-1.0-py3-none-any.whl
+INFO	2026-05-31T10:26:40,355	10912	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute unzip /tmp/glue-job-10606152944371346521/python/z3ong0-AwsGlueMLLibs.py.zip -d /tmp/glue-job-10606152944371346521/python/z3ong0-AwsGlueMLLibs
+INFO	2026-05-31T10:26:39,173	9730	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute /usr/bin/bash /tmp/glue-job-10606152944371346521/pythonmodules/pythonmoduleinstaller.sh /tmp/glue_venv --no-index --no-deps /tmp/glue-job-10606152944371346521/python/YeczGv-AWSGlueDataplanePython-5.1.859/amzn_awsgluelibs-5.1.859-py3-none-any.whl
+INFO	2026-05-31T10:26:39,159	9716	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute unzip /tmp/glue-job-10606152944371346521/python/YeczGv-AWSGlueDataplanePython-5.1.859.py.zip -d /tmp/glue-job-10606152944371346521/python/YeczGv-AWSGlueDataplanePython-5.1.859
+INFO	2026-05-31T10:26:36,745	7302	com.amazonaws.services.glue.launch.helpers.FileManager	[main]	119	Script should be downloaded at /tmp/glue-job-10606152944371346521/scale-out-demo.py 
+INFO	2026-05-31T10:26:36,745	7302	com.amazonaws.services.glue.FileDownloader	[sdk-async-response-2-0]	146	Object downloaded. Details: GetObjectResponse(AcceptRanges=bytes, LastModified=2026-05-31T10:26:24Z, ContentLength=879, ETag="8a7ca5d35b3aab4262f9a43504f56d58", ContentType=application/octet-stream; charset=UTF-8, ServerSideEncryption=AES256, Metadata={})
+INFO	2026-05-31T10:26:36,075	6632	com.amazonaws.services.glue.FileDownloader	[main]	139	Download bucket: aws-glue-assets-361116840744-ap-south-1 key: scripts/scale-out-demo.py to /tmp/glue-job-10606152944371346521/scale-out-demo.py with usingProxy: false and isProxyDisabled: true
+INFO	2026-05-31T10:26:36,064	6621	com.amazonaws.services.glue.utils.AWSS3Utils$	[main]	34	Encoded S3 URI to s3://aws-glue-assets-361116840744-ap-south-1/scripts/scale-out-demo.py
+INFO	2026-05-31T10:26:36,064	6621	com.amazonaws.services.glue.utils.AWSS3Utils$	[main]	29	Encoding S3 URI s3://aws-glue-assets-361116840744-ap-south-1/scripts/scale-out-demo.py
+INFO	2026-05-31T10:26:35,902	6459	com.amazonaws.services.glue.FileDownloader	[main]	96	downloading s3://aws-glue-assets-361116840744-ap-south-1/scripts/scale-out-demo.py file to destination location: /tmp/glue-job-10606152944371346521/scale-out-demo.py
+INFO	2026-05-31T10:26:35,900	6457	com.amazonaws.services.glue.PrepareLaunch	[main]	228	list of connectors to be added in classpath: List()
+INFO	2026-05-31T10:26:35,612	6169	com.amazonaws.services.glue.launch.helpers.ConnectionsManager	[main]	78	GLUE_CONNECTIVITY: attached connection types: ListBuffer()
+INFO	2026-05-31T10:26:35,467	6024	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/exception_catch
+INFO	2026-05-31T10:26:35,467	6024	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/amazon
+INFO	2026-05-31T10:26:35,468	6025	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/amazon/certs
+INFO	2026-05-31T10:26:35,468	6025	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/aws_glue_connectors/selected/native
+INFO	2026-05-31T10:26:35,468	6025	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/aws_glue_connectors/marketplace
+INFO	2026-05-31T10:26:35,467	6024	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/aws_glue_connectors/selected
+INFO	2026-05-31T10:26:35,466	6023	com.amazonaws.services.glue.PrepareLaunch	[main]	311	Creating directory /tmp/glue-job-10606152944371346521/aws_glue_connectors
+INFO	2026-05-31T10:26:35,442	5999	com.amazonaws.services.glue.launch.helpers.LoggerPropsManager	[main]	78	setting up the log4j.configurationFile=/tmp/glue-job-10606152944371346521/glue-9156423684142770062log4j2.properties
+INFO	2026-05-31T10:26:35,075	5632	com.amazonaws.services.glue.FileDownloader	[main]	96	downloading /tmp/glue-9156423684142770062log4j2.properties file to destination location: /tmp/glue-job-10606152944371346521/glue-9156423684142770062log4j2.properties
+WARN	2026-05-31T10:26:35,072	5629	com.amazonaws.services.glue.launch.helpers.LoggerPropsManager	[main]	60	Logger setup failed for exception analysis: Cannot invoke "java.net.URL.toURI()" because the return value of "java.lang.Class.getResource(String)" is null
+INFO	2026-05-31T10:26:35,068	5625	com.amazonaws.services.glue.launch.helpers.LoggerPropsManager	[main]	31	setupLoggerProperties...
+INFO	2026-05-31T10:26:35,065	5622	com.amazonaws.services.glue.launch.helpers.SparkPropsManagerHelper	[main]	60	glue.etl.telemetry.runtimeImproveFeature.autoscaling, jr_72fba4d8036744daec9081ee50f0fece4f2af01ad86136039c2ae1f86fb80a1e
+INFO	2026-05-31T10:26:35,056	5613	com.amazonaws.services.glue.launch.helpers.SparkPropsManagerHelper	[main]	114	optimizeParallelismConfigs started 
+INFO	2026-05-31T10:26:35,017	5574	com.amazonaws.services.gluedi.sensei.autodebugging.AutoDebuggingProxy	[main]	203	registering spark listeners
+INFO	2026-05-31T10:26:34,990	5547	com.amazonaws.services.gluedi.sensei.autodebugging.AutoDebuggingProxy	[main]	198	initializing AutoDebuggingProxy
+INFO	2026-05-31T10:26:34,429	4986	com.amazonaws.services.glue.utils.AWSClientUtils$	[main]	97	AWSClientUtils: create aws sts client with conf: proxy hostnull, proxy port 0
+INFO	2026-05-31T10:26:34,402	4959	com.amazonaws.services.glue.utils.EndpointConfig$	[main]	88	Endpoints: {credentials_provider=com.amazonaws.auth.DefaultAWSCredentialsProviderChain, glue.endpoint=https://glue.ap-south-1.amazonaws.com, lakeformation.endpoint=https://lakeformation.ap-south-1.amazonaws.com, jes.endpoint=https://glue-jes.ap-south-1.amazonaws.com, region=ap-south-1}
+INFO	2026-05-31T10:26:34,198	4755	com.amazonaws.services.glue.utils.EndpointConfig$	[main]	34	 STAGE is prod
+INFO	2026-05-31T10:26:34,194	4751	com.amazonaws.services.glue.launch.helpers.SparkPropsManagerHelper	[main]	100	
+proxy {
+  host = null
+  port = -1
+}
+INFO	2026-05-31T10:26:34,156	4713	com.amazonaws.services.glue.launch.helpers.PrepareLaunchProperties	[main]	89	Get job script: scale-out-demo.py.
+INFO	2026-05-31T10:26:34,148	4705	com.amazonaws.services.glue.PythonModuleInstaller	[pool-4-thread-1]	180	Command to Execute python3.11 -m venv --clear /tmp/glue_venv
+INFO	2026-05-31T10:26:34,143	4700	com.amazonaws.services.glue.utils.concurrent.PythonModuleTask	[pool-4-thread-1]	25	Setting Up Virtual Env and Application/Customer Provided Python Modules started in async mode
+INFO	2026-05-31T10:26:34,092	4649	com.amazonaws.services.glue.PrepareLaunch	[main]	184	Launching PythonModuleTask for --additional-python-modules
+1780223193343
+26/05/31 10:26:33 INFO GlueLibsDownloader: Elapsed time: 1718 millis
+26/05/31 10:26:30 WARN VersionInfoUtils: The AWS SDK for Java 1.x entered maintenance mode starting July 31, 2024 and will reach end of support on December 31, 2025. For more information, see https://aws.amazon.com/blogs/developer/the-aws-sdk-for-java-1-x-is-in-maintenance-mode-effective-july-31-2024/
+You can print where on the file system the AWS SDK for Java 1.x core runtime is located by setting the AWS_JAVA_V1_PRINT_LOCATION environment variable or aws.java.v1.printLocation system property to 'true'.
+This message can be disabled by setting the AWS_JAVA_V1_DISABLE_DEPRECATION_ANNOUNCEMENT environment variable or aws.java.v1.disableDeprecationAnnouncement system property to 'true'.
+The AWS SDK for Java 1.x is being used here:
+at java.base/java.lang.Thread.getStackTrace(Thread.java:1619)
+at glue.shaded.com.amazonaws.util.VersionInfoUtils.printDeprecationAnnouncement(VersionInfoUtils.java:81)
+at glue.shaded.com.amazonaws.util.VersionInfoUtils.<clinit>(VersionInfoUtils.java:59)
+at glue.shaded.com.amazonaws.internal.EC2ResourceFetcher.<clinit>(EC2ResourceFetcher.java:44)
+at glue.shaded.com.amazonaws.auth.InstanceMetadataServiceCredentialsFetcher.<init>(InstanceMetadataServiceCredentialsFetcher.java:38)
+at glue.shaded.com.amazonaws.auth.InstanceProfileCredentialsProvider.<init>(InstanceProfileCredentialsProvider.java:111)
+at glue.shaded.com.amazonaws.auth.InstanceProfileCredentialsProvider.<init>(InstanceProfileCredentialsProvider.java:91)
+at glue.shaded.com.amazonaws.auth.InstanceProfileCredentialsProvider.<init>(InstanceProfileCredentialsProvider.java:75)
+at glue.shaded.com.amazonaws.auth.InstanceProfileCredentialsProvider.<clinit>(InstanceProfileCredentialsProvider.java:58)
+at glue.shaded.com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper.initializeProvider(EC2ContainerCredentialsProviderWrapper.java:66)
+at glue.shaded.com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper.<init>(EC2ContainerCredentialsProviderWrapper.java:55)
+at glue.shaded.com.amazonaws.auth.DefaultAWSCredentialsProviderChain.<init>(DefaultAWSCredentialsProviderChain.java:60)
+at glue.shaded.com.amazonaws.auth.DefaultAWSCredentialsProviderChain.<clinit>(DefaultAWSCredentialsProviderChain.java:54)
+at glue.shaded.com.amazonaws.services.s3.AmazonS3ClientBuilder.standard(AmazonS3ClientBuilder.java:46)
+at glue.shaded.com.amazonaws.services.s3.AmazonS3Client.builder(AmazonS3Client.java:740)
+at com.amazonaws.services.glue.GlueLibsDownloader$Builder.getS3Client(GlueLibsDownloader.java:351)
+at com.amazonaws.services.glue.GlueLibsDownloader$Builder.build(GlueLibsDownloader.java:343)
+at com.amazonaws.services.glue.GlueBootstrap.downloadGlueLibs(GlueBootstrap.java:383)
+at com.amazonaws.services.glue.GlueBootstrap.lambda$setUpGlueAndUserLibs$1(GlueBootstrap.java:133)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+26/05/31 10:26:30 INFO GlueBootstrap: Downloading Glue libs...
+26/05/31 10:26:30 INFO GlueBootstrap: Glue Bootstrapping the driver...
+26/05/31 10:26:30 INFO GlueBootstrap: Glue Bootstrapping...
+OpenJDK 64-Bit Server VM Corretto-17.0.19.10.1 (build 17.0.19+10-LTS, mixed mode, sharing)
+openjdk version "17.0.19" 2026-04-21 LTS
+OpenJDK Runtime Environment Corretto-17.0.19.10.1 (build 17.0.19+10-LTS)
+/etc/alternatives/jre/bin/java --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.math=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/jdk.internal=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens=java.base/jdk.internal.util=ALL-UNNAMED --add-opens=java.base/jdk.internal.util.random=ALL-UNNAMED --add-opens=java.sql/java.sql=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions -Djavax.net.ssl.trustStore=/opt/amazon/certs/InternalAndExternalAndAWSTrustStore.jks -Djavax.net.ssl.trustStoreType=JKS -Djavax.net.ssl.trustStorePassword=amazon -DRDS_ROOT_CERT_PATH=/opt/amazon/certs/rds-combined-ca-bundle.pem -DREDSHIFT_ROOT_CERT_PATH=/opt/amazon/certs/redshift-ssl-ca-cert.pem -DRDS_TRUSTSTORE_URL=file:/opt/amazon/certs/InternalAndExternalAndAWSTrustStore.jks -Dlog4j2.configurationFile=/etc/spark/conf.dist/log4j2.properties -cp /usr/share/aws/aws-glue-shuffle/*:/usr/share/aws/emr-glue-bootstrap/*:/usr/lib/spark/jars/*:/usr/lib/spark/conf:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/aws-java-sdk-v2/*:/usr/share/aws/*:/usr/share/aws/hmclient/lib/aws-glue-datacatalog-spark-client.jar:/usr/share/aws/hmclient/lib/*:/usr/share/aws/iceberg/lib/*:/usr/share/aws/delta/lib/*:/usr/lib/hudi/*:/usr/share/aws/redshift/jdbc/*:/usr/share/aws/redshift/spark-redshift/lib/*:/usr/share/aws/glue-connectors/lib/*:/usr/share/aws/glue-pii-dependencies/lib/*:/usr/share/aws/datazone-openlineage-spark/lib/*:/usr/lib/hadoop/lib/*::/usr/lib/hadoop-lzo/lib/*:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/emr/emrfs/conf:/usr/share/aws/emr/emrfs/lib/*:/usr/share/aws/emr/emrfs/auxlib/*:/usr/share/aws/emr/ddb/lib/emr-ddb-hadoop.jar:/usr/share/aws/emr/goodies/lib/emr-hadoop-goodies.jar:/usr/share/aws/emr/cloudwatch-sink/lib/*:/usr/share/aws/emr/security/conf:/usr/share/aws/emr/security/lib/*:/usr/lib/hadoop/*:/etc/hadoop/conf:/usr/share/java/Hive-JSON-Serde/*:/usr/lib/spark/connector/lib/spark-connect.jar:/usr/lib/spark/connector/lib/spark-connect-common.jar com.amazonaws.services.glue.GlueBootstrap --conf spark.dynamicAllocation.enabled=true --conf spark.shuffle.service.enabled=true --conf spark.dynamicAllocation.minExecutors=1 --conf spark.dynamicAllocation.maxExecutors=3 --conf spark.executor.memory=10g --conf spark.driver.memory=10g --conf spark.network.timeout=600  --internal-lib-urls https://prod-ap-south-1-package-distribution-artifacts-bucket.s3.ap-south-1.amazonaws.com/009/Glue5.1/aws-glue-dataplane-python/java17/5.1.859/YeczGv-AWSGlueDataplanePython-5.1.859.py.zip?[REDACTED],https://prod-ap-south-1-package-distribution-artifacts-bucket.s3.ap-south-1.amazonaws.com/009/Glue5.1/aws-glue-di-libs/java17/5.1.859/rTSWUd-aws-glue-di-package-5.1.859.jar?[REDACTED],https://prod-ap-south-1-package-distribution-artifacts-bucket.s3.ap-south-1.amazonaws.com/009/Glue5.1/AwsGlueMLLibsPython/java17/5.1.440/z3ong0-AwsGlueMLLibs.py.zip?[REDACTED],https://prod-ap-south-1-package-distribution-artifacts-bucket.s3.ap-south-1.amazonaws.com/009/Glue5.1/AwsGlueMLLibs/java17/5.1.440/jaPg8R-AwsGlueMLLibs.jar?[REDACTED],https://prod-ap-south-1-package-distribution-artifacts-bucket.s3.ap-south-1.amazonaws.com/009/Glue5.1/AWSGlueISArtifact/java17/1.0.6456959812/ogK48k-AWSGlueISArtifact-1.0.0.jar?[REDACTED]  --JOB_ID j_e4e8900e5de0fcfe846fcd6203b84272817944962f83621895c647b377538923 --spark-event-logs-path s3://aws-glue-assets-361116840744-ap-south-1/sparkHistoryLogs/  --enable-observability-metrics true --enable-continuous-cloudwatch-log true  --enable-auto-scaling true --JOB_NAME scale-out-demo   --enable-glue-datacatalog true --glue-di-packages-correlation-ids 20260518-171330_,20260518-171330_,6430610500,6430610500,AWSGlueISArtifact-1.0.6456959812 --job-bookmark-option job-bookmark-disable --TempDir s3://aws-glue-assets-361116840744-ap-south-1/temporary/ --enable-metrics true --enable-spark-ui true --enable-job-insights true  --JOB_RUN_ID jr_72fba4d8036744daec9081ee50f0fece4f2af01ad86136039c2ae1f86fb80a1e --conf spark.eventLog.rolling.enabled=true --conf spark.sql.catalog.glue_catalog.glue.skip-name-validation=true --scriptLocation s3://aws-glue-assets-361116840744-ap-south-1/scripts/scale-out-demo.py --job-language python --tenant-internal glue
+Sun May 31 10:26:29 UTC 2026
+Preparing ...
